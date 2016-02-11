@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+     <include
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       
+        layout="@layout/toolbar" />
+    
+<TextView
+    android:id="@+id/select_language_text"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="10dp"    
+    android:text="@string/language_text" />
+
+<Spinner
+    android:id="@+id/select_language"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:prompt="@string/spinner_select_language"
+    android:layout_below="@+id/select_language_text"   
+    />
+
+<Button
+    android:id="@+id/button_cancel_language"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/button_select_language"
+    android:layout_alignBottom="@+id/button_select_language"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="97dp"
+    android:background="@drawable/button"
+    android:text="@string/button_cancel" />
+
+<Button
+    android:id="@+id/button_select_language"
+    android:layout_width="65dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/select_language"
+    android:layout_marginRight="46dp"
+    android:layout_marginTop="26dp"
+    android:layout_toLeftOf="@+id/button_cancel_language"
+    android:background="@drawable/button"
+    android:text="@string/button_ok" />
+
+</RelativeLayout>

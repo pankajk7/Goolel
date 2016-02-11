@@ -1,0 +1,67 @@
+10
+
+dir
+76
+svn+ssh://swati@192.168.11.201/usr/local/clients/goolelAndroidApp/res
+svn+ssh://swati@192.168.11.201/usr/local/clients
+
+
+
+2016-01-13T09:22:04.864097Z
+75
+mamta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+213fccfd-f218-4093-81df-04b1eb9eafaf
+
+values
+dir
+
+drawable
+dir
+
+values-w820dp
+dir
+
+drawable-hdpi
+dir
+
+drawable-xxhdpi
+dir
+
+menu
+dir
+
+values-v11
+dir
+
+drawable-ldpi
+dir
+
+values-v14
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+drawable-xxxhdpi
+dir
+
+layout
+dir
+

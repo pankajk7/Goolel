@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="action_help">Help</string>
+    <string name="action_search_video">Search Video</string>
+    <string name="action_add_video">Add Video</string>
+    <string name="action_logout">Logout</string>
+    <string name="add_video">Add Video</string>
+    <string name="video_path_text"></string>
+    <string name="add_video_select">Select Video</string>
+    <string name="add_video_capture">Capture Video</string>
+    <string name="settings">Settings</string>
+    <string name="settings_edit_profile">Edit Profile</string>
+    <string name="settings_forgot_password">Forgot Password</string>
+    <string name="settings_push_notification">Push Notification</string>
+    <string name="settings_change_password">Change Password</string>
+    <string name="settings_search">Search Video</string>
+
+    <!-- signup screen -->
+    <string name="logo_desc">Goolel News Logo</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_title">Login</string>
+    <string name="forgot_password_title"><u>Forgot Password</u></string>
+    <string name="signup_title">Register Now</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="search_hint">Title</string>
+    <string name="search_date">Search by Date</string>
+
+    <!-- Add video -->
+    <string name="video_title_text">Title </string>
+    <string name="video_description_text">Description(Optional) </string>
+    <!-- <string name="button_select_video_text">Select</string> -->
+    <string name="or_text">Or</string>
+    <!-- <string name="button_capture_video_text">Capture </string> -->
+    <string name="button_upload_video_text">Upload</string>
+    <string name="button_Add_video_text">ADD</string>
+
+    <!-- Advance search -->
+    <string name="from_date_text">From Date</string>
+    <string name="to_date_text">From Date</string>
+    <string name="button_search_text">Search</string>
+    <string name="advance_search_title"><u>Advance Search</u></string>
+
+    <!-- select language -->
+    <string name="language_text">Select Language</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="spinner_select_language">choose language</string>
+
+    <!-- language -->
+    <string-array name="language_list">
+        <item>English (By Default)</item>
+        <item>Hindi</item>
+    </string-array>
+
+    <!-- Video Adapter -->
+    <string name="video_adapter_upload_date">Upload date: %1$s</string>
+    <string name="video_adapter_video_size">Size: %1$s MB</string>
+
+    <!-- Error -->
+    <string name="error_email_empty">Email field is blank.</string>
+    <string name="error_email_not_valid">Email is not valid.</string>
+    <string name="error_email_exists">Email is already exist.</string>
+    <string name="error_email_notfound">Email address not found.</string>
+    <string name="error_username_empty">Name field is blank.</string>
+    <string name="error_username_limit"> Enter less than 25 characher in name.</string>
+    <string name="error_password_empty"> Password field is blank.</string>
+    <string name="error_password_limit"> Enter less than 10 characher in password.</string>
+    <string name="error_emailpass_incorrect">Incorrect email address/password.</string>
+    <string name="error_phone_empty"> Please enter mobile number.</string>
+    <string name="error_phone_not_valid">Mobile number is not valid.</string>
+    <string name="error_idproof_select">Please select Id proof</string>
+    <string name="error_idproof_empty">Id field is blank.</string>
+    <string name="error_search_empty">Title field is blank.</string>
+    <string name="error_search_empty_Date">Date field is blank.</string>
+    <string name="error_video_not_found_search">Video not found.</string>
+     <string name="error_video_not_found_date">No videos found for the selected period.</string>
+    <string name="error_video_list">Some error in fetching video list.</string>
+    <string name="confirm_update">Profile updated successfully.</string>
+      <string name="confirm_register">Profile registered successfully.</string>
+    
+    <string name="sent_password"> Password sent to your email address.</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_add_video">AddVideoActivity</string>
+    <string name="title_activity_advance_search">AdvanceSearchActivity</string>
+    <string name="title_activity_select_language">SelectLanguageActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="error_title_empty">Title field is blank.</string>
+    <string name="error_title_exists">Video with this title already exist.</string>
+    <string name="adapter_video_exists">Video already exists.</string>
+    <string name="error_form_incomplete">Incomplete form.</string>
+    <string name="error_detail_empty">Please enter the discription.</string>
+    <string name="error_title_limit"> Enter less than 15 characher in title.</string>
+    <string name="error_detail_limit"> Enter less than 50 characher in detail.</string>
+    <string name="error_path_empty"> Please select or capture video.</string>
+
+    <!-- Confirmation -->
+    <string name="confirm_file_download">File is downloaded.</string>
+    <string name="confirm_file_upload">File is uploaded.</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <!-- Help screen -->
+    <string name="email_text_before">Please feel free to contact us if you have any queries or comments</string>
+    <string name="email_content_description">Email address</string>
+    <string name="email_address"><u>reachus@goolelnews.com</u></string>
+    <string name="title_activity_search_video">SearchVideoActivity</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+    
+     <!-- Notification -->
+
+ 
+     <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+ 
+
+
+</resources>

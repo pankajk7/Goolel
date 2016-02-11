@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/upload_texture"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        layout="@layout/toolbar" />
+
+    <EditText
+        android:id="@+id/editfname"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editText_editProfile_email"
+        android:layout_alignRight="@+id/editText_editProfile_email"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_editProfile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editfname"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Email"
+        android:enabled="false"
+        android:inputType="textEmailAddress" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText_editProfile_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="phone" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/layout_spiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editnumber"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/editspinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/spiner_back" />
+
+        <EditText
+            android:id="@+id/editidproof"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Number"
+            android:inputType="number" >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/layout_spiner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/button_color" />
+
+</RelativeLayout>

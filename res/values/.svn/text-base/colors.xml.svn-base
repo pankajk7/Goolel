@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <color name="primary_color">#3f51b5</color>
+    <color name="primary_color_dark">#212a5f</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="black_partial_transparent">#aa000000</color>
+    <color name="gray">#99808080</color>
+    <color name="gray_drawer">#eeeeee</color>
+    <color name="layout_background">#eeeeee</color>
+    <color name="upload_texture">#eceef8</color>
+    <color name="button_color">#fff</color>
+</resources>
